@@ -27,7 +27,7 @@ const Header = () => {
 
         <a class="mr-3" href="#!">
         <div className='font-bold text-xl cursor-pointer flex items-center gap-1'>
-                 <LinkIcon className='w-5 h-5 text-blue-600'/>
+                 <LinkIcon className='w-5 h-5 text-blue-400'/>
                  <span>ToSocial</span>
              </div>
         </a>
@@ -48,8 +48,8 @@ const Header = () => {
          
         </ul>
         <div className='flex gap-2 md:ml-10 sm:mt-2'>
-               <Link href={"/login"} className='btn bg-blue-600 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Login</Link>
-                <Link href={"/register"} className='btn bg-blue-600 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Register</Link>
+               <Link href={"/login"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Login</Link>
+                <Link href={"/register"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Register</Link>
                </div>
       </div>
 

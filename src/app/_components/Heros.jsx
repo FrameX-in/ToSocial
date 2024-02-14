@@ -14,14 +14,14 @@ const Heros = () => {
     <div class="text-center">
       <div
         class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:py-16 md:px-12 mt-[-170px] backdrop-blur-[30px]">
-        <h1 class="mt-2 mb-16 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
+        <h1 class="mt-2 mb-10 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
           The best offer on the market <br /><span class="text-primary">for your business</span>
         </h1>
-        <div className ="px-6 py-3  text-white text-center grid place-items-center ">
-        <form className=" flex items-center justify-center opacity-100 border-2  bg-indigo-400  ml-3">
-          <h1 className=''>tosocial.in/</h1>
-          <input type="text " className='w-[40%] py-2 bg-transparent placeholder-white border-white'  placeholder='username'/>
-          <button className='bg-slate-400  py-2 px-1'>Join for free</button>
+        <div className ="px-6 py-3  text-black text-center grid place-items-center ">
+        <form className=" flex items-center justify-center opacity-100     ml-3">
+          <h1 className=' rounded-s-md  py-2 pl-2 text-blue-400 shadow-[-2px_5px_8px_2px_#00000024]'>tosocial.in/</h1>
+          <input type="text " className='w-[40%]  bg-transparent placeholder-gray-500  rounded-e-md  py-2 shadow-[2px_5px_8px_2px_#00000024]'  placeholder='username'/>
+          <button className='bg-blue-400  p-2 ml-3   rounded-md shadow-[2px_5px_8px_2px_#00000024]'>Join for free</button>
         </form>
         </div>
       </div>
