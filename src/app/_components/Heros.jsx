@@ -18,7 +18,8 @@ const Heros = () => {
           The best offer on the market <br /><span class="text-primary">for your business</span>
         </h1>
         <div className ="px-6 py-3  text-black text-center grid place-items-center ">
-        <form className=" flex items-center justify-center opacity-100     ml-3">
+        <form className=" flex items-center justify-center opacity-100 ml-3">
+
           <h1 className=' rounded-s-md  py-2 pl-2 text-blue-400 shadow-[-2px_5px_8px_2px_#00000024]'>tosocial.in/</h1>
           <input type="text " className='w-[40%]  bg-transparent placeholder-gray-500  rounded-e-md  py-2 shadow-[2px_5px_8px_2px_#00000024]'  placeholder='username'/>
           <button className='bg-blue-400  p-2 ml-3   rounded-md shadow-[2px_5px_8px_2px_#00000024]'>Join for free</button>
