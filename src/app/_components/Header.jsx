@@ -26,7 +26,7 @@ const Header = () => {
              </div>
 
         <a class="mr-3" href="#!">
-        <div className='font-bold text-xl cursor-pointer flex items-center gap-1'>
+        <div className='font-bold text-xl cursor-pointer flex items-center gap-1 dark:text-white'>
                  <LinkIcon className='w-5 h-5 text-blue-400'/>
                  <span>ToSocial</span>
              </div>
