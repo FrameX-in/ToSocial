@@ -12,7 +12,7 @@ const Login = () => {
           <form class="flex flex-col w-full h-full pb-6 text-center bg-white rounded-3xl">
             <h3 class="mb-3 text-4xl font-extrabold text-gray-900">Login </h3>
             <p class="mb-4 text-gray-700">Enter your email and password</p>
-            <button onClick={()=> signIn('google') } class="flex items-center justify-center w-full py-4 mb-6 text-sm font-medium transition duration-300 rounded-2xl text-gray-900 bg-gray-200 hover:bg-gray-300 focus:ring-4 focus:ring-gray-200 cursor-pointer">
+            <button onClick={()=> signIn() } class="flex items-center justify-center w-full py-4 mb-6 text-sm font-medium transition duration-300 rounded-2xl text-gray-900 bg-gray-200 hover:bg-gray-300 focus:ring-4 focus:ring-gray-200 cursor-pointer">
               <img class="h-5 mr-2" src="https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/motion-tailwind/img/logos/logo-google.png" alt=""/>
               Sign in with Google
             </button>
