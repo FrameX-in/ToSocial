@@ -48,8 +48,8 @@ const Header = () => {
          
         </ul>
         <div className='flex gap-2 md:ml-10 sm:mt-2'>
-               <Link href={"/login"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Login</Link>
-                <Link href={"/register"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Register</Link>
+               <Link href={"/sign-in"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Login</Link>
+                <Link href={"/sign-up"} className='btn bg-blue-500 text-white md:ml-4 font-semibold px-2 py-1 rounded duration-500 md:static '>Register</Link>
                </div>
       </div>
 

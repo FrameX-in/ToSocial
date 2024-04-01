@@ -13,7 +13,7 @@ const Heros = () => {
       <div
         class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:py-16 md:px-12 mt-[-170px] backdrop-blur-[30px]">
         <h1 class="mt-2 mb-10 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-          The best offer on the market <br /><span class="text-primary">for your business</span>
+          Share your Links <br /><span class="text-primary">for your growth</span>
         </h1>
         <div className ="px-6 py-3  text-black dark:text-white text-center grid place-items-center ">
         <form className=" flex items-center justify-center opacity-100 ml-3">
